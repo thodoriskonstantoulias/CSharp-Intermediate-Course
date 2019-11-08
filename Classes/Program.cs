@@ -26,6 +26,7 @@ namespace Classes
 
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
+            //--------------------------------------------------------------
         }
     }
 }

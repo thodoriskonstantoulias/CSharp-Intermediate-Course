@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Inheritance
 {
@@ -28,9 +29,26 @@ namespace Inheritance
 
             //8.3 Inheritance constructors
 
-            var car = new Car("12345");
+            //var car = new Car("12345");
 
             //-------------------------------------------------------
+
+            //8.4 Upcasting and downcasting
+
+            //Example 1 Upcasting $$$$$$$$$$ 
+            //Circle circle = new Circle();
+            //Shape shape = circle;
+            //circle.Width = 100;
+            //shape.Width = 200;
+
+            //Console.WriteLine(circle.Width);
+            //$$$$$$$$$$$$$$$$$$$$$$$$
+
+            //Example 2 Downcasting $$$$$$$$$$$$$
+
+            Shape shape = new Circle();
+            Circle circle = (Circle)shape;
+            
         }
     }
 }

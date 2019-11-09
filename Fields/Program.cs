@@ -29,10 +29,17 @@ namespace Fields
 
             //Lesson 6 : Properties : getters and setters
 
-            var person = new PersonLesson6(new DateTime(1991, 02, 19));
-            Console.WriteLine("My age is : {0}", person.Age);
+            //var person = new PersonLesson6(new DateTime(1991, 02, 19));
+            //Console.WriteLine("My age is : {0}", person.Age);
 
             //-------------------------------------------------------------------------------------
+
+            // Lesson 7 : Indexers
+
+            var cookie = new HttpCookie();
+            cookie["name"] = "Ted";
+            Console.WriteLine(cookie["name"]);
+
         }
     }
 }

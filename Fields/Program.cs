@@ -17,11 +17,22 @@ namespace Fields
             //customer.Promote();
             //Console.WriteLine(customer.Orders.Count);
 
+            //-------------------------------------------------------------------------------------
+
             //Lesson 5 : Access modifiers
 
-            var person = new Person();
-            person.SetBirthdate(new DateTime(2019, 11, 09));
-            Console.WriteLine(person.GetBirthdate());
+            //var person = new Person();
+            //person.SetBirthdate(new DateTime(2019, 11, 09));
+            //Console.WriteLine(person.GetBirthdate());
+
+            //------------------------------------------------------------------------------------
+
+            //Lesson 6 : Properties : getters and setters
+
+            var person = new PersonLesson6(new DateTime(1991, 02, 19));
+            Console.WriteLine("My age is : {0}", person.Age);
+
+            //-------------------------------------------------------------------------------------
         }
     }
 }

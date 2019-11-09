@@ -15,12 +15,22 @@ namespace Inheritance
             //text.Width = 100;
             //text.Copy();
 
+            //-------------------------------------------------------
+
             //8.2 - Composition
 
-            var logger = new Logger();
-            var migrator = new DbMigrator(logger);
+            //var logger = new Logger();
+            //var migrator = new DbMigrator(logger);
 
-            migrator.Migrate();
+            //migrator.Migrate();
+
+            //-------------------------------------------------------
+
+            //8.3 Inheritance constructors
+
+            var car = new Car("12345");
+
+            //-------------------------------------------------------
         }
     }
 }

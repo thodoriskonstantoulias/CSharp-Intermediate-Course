@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.IO;
 
 namespace Inheritance
@@ -46,9 +47,21 @@ namespace Inheritance
 
             //Example 2 Downcasting $$$$$$$$$$$$$
 
-            Shape shape = new Circle();
-            Circle circle = (Circle)shape;
-            
+            //Shape shape = new Circle();
+            //Circle circle = (Circle)shape;
+
+            //$$$$$$$$$$$$$$$$$$$$$$$$
+
+            //8.5 Boxing and Unboxing
+            //Boxing happens when for ex. we use ArrayList which accepts objects which has perfomance issues
+            //In Generic collections we do not have that problem
+
+            var list = new ArrayList();
+            list.Add(1);
+            list.Add("Ted");
+            list.Add(DateTime.Today);
+
+
         }
     }
 }

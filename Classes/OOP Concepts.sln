@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "..\Methods\Metho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fields", "..\Fields\Fields.csproj", "{840F5D10-5FAA-404C-ADA3-7916F173A78B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "..\Inheritance\Inheritance.csproj", "{79F77A6E-380B-4CBC-BA2D-D18D77DF3923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "..\Inheritance\Inheritance.csproj", "{79F77A6E-380B-4CBC-BA2D-D18D77DF3923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "..\Polymorphism\Polymorphism.csproj", "{9ED37A58-7DAC-457E-A771-C8AFEC0C26CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{79F77A6E-380B-4CBC-BA2D-D18D77DF3923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F77A6E-380B-4CBC-BA2D-D18D77DF3923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F77A6E-380B-4CBC-BA2D-D18D77DF3923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED37A58-7DAC-457E-A771-C8AFEC0C26CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED37A58-7DAC-457E-A771-C8AFEC0C26CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED37A58-7DAC-457E-A771-C8AFEC0C26CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED37A58-7DAC-457E-A771-C8AFEC0C26CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
